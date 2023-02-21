@@ -3,3 +3,8 @@ body {
   width: 100vw;
   background-color: #deada5;
 }
+
+.blue {
+  color: blue;
+  border: 1px blue solid;
+}
