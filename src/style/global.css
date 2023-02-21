@@ -6,9 +6,27 @@ body {
   padding: 0;
 }
 
-.blue {
-  color: blue;
-  border: 1px blue solid;
+.header {
+  color: var(--blue);
+  /* border: 1px blue solid; */
   margin: 0;
   margin-bottom: .5em;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  color: red;
+  font-size: 24px;
+}
+
+.list li a {
+  text-decoration: none;
+}
+
+.list li a:visited {
+  color: var(--blue)
 }
